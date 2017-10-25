@@ -24,5 +24,10 @@ namespace HW4_WPF_Controls
         {
             InitializeComponent();
         }
+        
+        private void Button_MouseMove(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = new SolidColorBrush(Colors.Aquamarine);
+        }
     }
 }
